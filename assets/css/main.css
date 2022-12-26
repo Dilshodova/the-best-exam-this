@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.fluid-container{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #4499FE;
+
+}
+
+.menu{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 44px;
+}
+
+.elements{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 141px;
+}
+
+input{
+    width: 297px;
+    height: 55px;
+    left: 141px;
+    top: 103px;
+    background: #E9E9E9;
+    border-radius: 10px;
+    margin-left: 28px;
+    margin-top: 32px;
+
+}
+
+input:last-child{
+    width: 622px;
+}
+
+.btn{
+    width: 120px;
+    height: 41px;
+    left: 1182px;
+    top: 158px;
+    background: #1DE755;
+    margin-top: 75px;
+    margin-right: 156px;
+    outline: none;
+    color: #fff;
+    border: none;
+}
+
+/* body section */
+.taomlar{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.taomlar img{
+    padding: 25px;
+}
+
+.taom-noma{
+    width: 1202px;
+    height: 220px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+}
+
+.order{
+    padding-top: 35px;
+}
+
+ul li{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 37px;
+}
+/* body section *
